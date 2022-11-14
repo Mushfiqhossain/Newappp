@@ -18,6 +18,11 @@
         android:id="@+id/today_include"
         layout="@layout/today"
         android:paddingTop="40dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:layout_above="@+id/bottomAppBar"/>
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
