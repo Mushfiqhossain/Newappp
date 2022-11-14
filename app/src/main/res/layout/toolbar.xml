@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/left_icon"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_baseline_menu_24"/>
+            android:src="@drawable/ic_baseline_notifications_24"/>
 
         <TextView
 
@@ -26,7 +26,7 @@
             android:layout_centerVertical="true"
             android:textColor="@android:color/white"
             android:textSize="20sp"
-            android:text="Wakto"/>
+            android:text="Wakt"/>
 
         <ImageView
 
