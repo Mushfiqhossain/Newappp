@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
 
@@ -33,16 +33,16 @@ public class MainActivity extends AppCompatActivity {
             public void onNavigationItemReselected(MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.home:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
 
                     case R.id.calendar:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, calenderFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,calenderFragment).commit();
 
                     case R.id.alarm:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, alarmFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,alarmFragment).commit();
 
                     case R.id.settings:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, settingsFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,settingsFragment).commit();
 
                 }
 
