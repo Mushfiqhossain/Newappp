@@ -8,5 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#FF3bd8ef</color>
+    <color name="red">#FF941a3a</color>
+    <color name="purple_dark">#FF6C4AB6</color>
+    <color name="purple_blue">#FF8D9EFF</color>
+    <color name="teal_light">#FFB9E0FF</color>
 
 </resources>

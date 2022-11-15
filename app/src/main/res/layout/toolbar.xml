@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/purple_200">
-    <RelativeLayout
+    android:layout_height="70dp"
+    android:background="@color/white"
+    android:paddingTop="16dp">
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp">
 
         <ImageView
 
@@ -15,7 +12,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/left_icon"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_baseline_menu_24"/>
+            android:src="@drawable/ic_baseline_menu_24"
+            android:paddingLeft="16dp"/>
 
         <TextView
 
@@ -24,7 +22,7 @@
             android:layout_marginStart="16dp"
             android:layout_toEndOf="@id/left_icon"
             android:layout_centerVertical="true"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="20sp"
             android:text="Wakto"/>
 
@@ -35,9 +33,10 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_baseline_notifications_24"
-            android:layout_alignParentEnd="true"/>
+            android:layout_alignParentEnd="true"
+            android:paddingRight="16dp"/>
 
-    </RelativeLayout>
+
 
 
 </RelativeLayout>

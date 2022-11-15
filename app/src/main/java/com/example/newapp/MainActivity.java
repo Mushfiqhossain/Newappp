@@ -23,31 +23,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        bottomNavigationView = findViewById(R.id.bottom_navigation);
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
-
-        bottomNavigationView.setOnItemReselectedListener(new NavigationBarView.OnItemReselectedListener() {
-            @Override
-            public void onNavigationItemReselected(MenuItem item) {
-                switch (item.getItemId()){
-                    case R.id.home:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
-
-                    case R.id.calendar:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,calenderFragment).commit();
-
-                    case R.id.alarm:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,alarmFragment).commit();
-
-                    case R.id.settings:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,settingsFragment).commit();
-
-                }
-
-            }
-        });
-
     }
 }
