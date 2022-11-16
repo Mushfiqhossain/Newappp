@@ -24,7 +24,7 @@
             android:layout_centerVertical="true"
             android:textColor="@android:color/black"
             android:textSize="20sp"
-            android:text="Wakto"/>
+            android:text="Wakt"/>
 
         <ImageView
 

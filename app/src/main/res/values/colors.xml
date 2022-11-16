@@ -12,5 +12,6 @@
     <color name="purple_dark">#FF6C4AB6</color>
     <color name="purple_blue">#FF8D9EFF</color>
     <color name="teal_light">#FFB9E0FF</color>
+    <color name="skin">#FFFEE0C0</color>
 
 </resources>
