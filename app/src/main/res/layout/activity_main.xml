@@ -49,7 +49,10 @@
         app:itemBackground="@color/skin"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_nav"
+        app:itemTextColor="#B9005B"
+        app:itemIconTint="#B9005B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

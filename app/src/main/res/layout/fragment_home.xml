@@ -3,18 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_200"
     android:id="@+id/homelayout"
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Home screen"
-        android:textSize="26dp" />
-
     <include
         android:id="@+id/today_include"
         layout="@layout/today"
@@ -34,5 +26,24 @@
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp" />
+    <include
+        android:id="@+id/forbidden_time"
+        layout="@layout/forbidden_times"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/prayers"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp" />
+    <include
+        android:id="@+id/seheri"
+        layout="@layout/seheri"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/forbidden_time"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp" />
+
 
 </RelativeLayout>
